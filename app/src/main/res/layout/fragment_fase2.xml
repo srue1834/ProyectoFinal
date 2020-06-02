@@ -1,0 +1,239 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.Fase2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3D0C3B">
+
+        <TextView
+            android:id="@+id/ingreseM"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="656dp"
+            android:text="@string/ingreseM"
+            android:textColor="#FFFFFF"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/dosis"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="444dp"
+            android:background="@drawable/cuadrado"
+            android:hint="@string/idosis"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/medicamento"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="588dp"
+            android:background="@drawable/cuadrado"
+            android:hint="@string/imedicamento"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/ingreseD"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="520dp"
+            android:text="@string/ingreseD"
+            android:textColor="#FFFFFF"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/ingreseF"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="372dp"
+            android:text="@string/ingreseF"
+            android:textColor="#FFFFFF"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.741"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/ingreseT"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="236dp"
+            android:text="@string/ingreseT"
+            android:textColor="#FFFFFF"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.755"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <Button
+            android:id="@+id/jueves"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="J"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/domingo"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="D"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.859"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/lunes"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="L"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.14"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/miercoles"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="M"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/martes"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="M"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.259"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/viernes"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="V"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.617"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/sabado"
+            android:layout_width="35"
+            android:layout_height="35"
+            android:layout_marginBottom="308dp"
+            android:background="@drawable/cuadrado"
+            android:text="S"
+            android:textColor="#3D0C3B"
+            android:textSize="20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/noche"
+            android:layout_width="40"
+            android:layout_height="40"
+            android:layout_marginBottom="160dp"
+            android:background="@drawable/baseline_nights_stay_white_18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.767"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/dia"
+            android:layout_width="40"
+            android:layout_height="40"
+            android:layout_marginBottom="160dp"
+            android:background="@drawable/baseline_brightness_5_white_18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.272"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/medio"
+            android:layout_width="40"
+            android:layout_height="40"
+            android:layout_marginBottom="160dp"
+            android:background="@drawable/baseline_brightness_6_white_18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.522"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/siguiente1"
+            android:layout_width="170dp"
+            android:layout_height="50"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/cuadro3"
+            android:text="@string/siguiente"
+            android:textColor="#3D0C3B"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.805"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

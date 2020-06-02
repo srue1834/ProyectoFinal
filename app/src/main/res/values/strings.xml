@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="iusuario">Usuario</string>
+    <string name="icontra">Contraseña</string>
+    <string name="iconfirmar">Confirmar contraseña</string>
+    <string name="icorreo">Correo electrónico</string>
+    <string name="imedicamento">Nombre de medicamento</string>
+    <string name="idosis">Dosis prescrita en ml</string>
+    <string name="iescriba">Escriba aqui</string>
+    <string name="imedicamento2">Medicamento</string>
+    <string name="iniciar">Iniciar sesión</string>
+    <string name="registro">Registrarse</string>
+    <string name="drinkMe">Drink Me</string>
+    <string name="precios">Precios</string>
+    <string name="alarma">Alarma</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="ingreseM">1. Ingrese su medicamento</string>
+    <string name="ingreseD">2. Ingrese la dosis prescrita</string>
+    <string name="ingreseF">3. Marque los dias necesarios
+            para tomar su medicamento</string>
+    <string name="ingreseT">4. Marque el tiempo en el que
+                se toma su medicamento</string>
+    <string name="iprecio">5. Por favor ingrese el precio en el que compró su medicamento</string>
+    <string name="idireccion">6.  Por favor ingrese la dirección en donde lo compró</string>
+    <string name="inumero">7. Por favor ingrese el numero telefónico de la farmacia</string>
+
+
+</resources>

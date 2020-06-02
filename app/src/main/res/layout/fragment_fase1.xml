@@ -1,0 +1,108 @@
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.navigation.Fase1"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3D0C3B">
+
+
+        <Button
+            android:id="@+id/registrarse"
+            android:layout_width="170dp"
+            android:layout_height="50"
+            android:layout_marginBottom="244dp"
+            android:background="@drawable/cuadro3"
+            android:text="@string/registro"
+            android:textSize="17"
+            android:textColor="#3D0C3B"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/siguiente"
+            android:layout_width="170dp"
+            android:layout_height="50"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/cuadro3"
+            android:text="@string/siguiente"
+            android:textColor="#3D0C3B"
+            android:textSize="17"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.78"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="340dp"
+            android:layout_height="490dp"
+            android:layout_marginBottom="184dp"
+            android:background="@drawable/cuadrado"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/contra2"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="456dp"
+            android:background="@drawable/cuadro2"
+            android:textSize="17"
+            android:hint="@string/icontra"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/usuario2"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="588dp"
+            android:background="@drawable/cuadro2"
+            android:textSize="17"
+            android:hint="@string/iusuario"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/correo"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="520dp"
+            android:background="@drawable/cuadro2"
+            android:textSize="17"
+            android:hint="@string/icorreo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/confirmar"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="392dp"
+            android:background="@drawable/cuadro2"
+            android:textSize="17"
+            android:hint="@string/iconfirmar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
