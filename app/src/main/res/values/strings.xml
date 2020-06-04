@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProyectoFinal</string>
+    <string name="app_name">Drink me</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="iusuario">Usuario</string>
@@ -25,6 +25,17 @@
     <string name="iprecio">5. Por favor ingrese el precio en el que compró su medicamento</string>
     <string name="idireccion">6.  Por favor ingrese la dirección en donde lo compró</string>
     <string name="inumero">7. Por favor ingrese el numero telefónico de la farmacia</string>
+    <string name="instruccion">Oprima el logo cuando se tome
+        su medicamento</string>
+    <string name="mensaje">Ya es de noche y tiene que tomar
+        su medicamento</string>
+    <string name="dia1"> </string>
+    <string name="dia2"> </string>
+    <string name="dia3"> </string>
+    <string name="dia4"> </string>
+    <string name="dia5"> </string>
+    <string name="dia6"> </string>
+    <string name="dia7"> </string>
 
 
 </resources>

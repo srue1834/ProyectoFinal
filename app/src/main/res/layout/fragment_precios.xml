@@ -11,14 +11,15 @@
 
         <EditText
             android:id="@+id/medicamento1"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="540dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="644dp"
+            android:background="@drawable/cuadrado"
             android:ems="10"
-            android:hint="@string/imedicamento1"
+            android:hint="@string/imedicamento2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent" />
 
 

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/main">
+
+    <fragment
+        android:id="@+id/alarma"
+        android:name="com.example.proyectofinal.alarma.Alarma"
+        android:label="Alarma"
+        tools:layout="@layout/fragment_alarma"/>
+    <fragment
+        android:id="@+id/fase1"
+        android:name="com.example.proyectofinal.fase1.Fase1"
+        android:label="Fase1"
+        tools:layout="@layout/fragment_fase1" >
+
+        <action
+        android:id="@+id/action_fase1_to_fase2"
+        app:destination="@id/fase2" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fase2"
+        android:name="com.example.proyectofinal.fase2.Fase2"
+        android:label="Fase2"
+        tools:layout="@layout/fragment_fase2" >
+
+        <action
+            android:id="@+id/action_fase2_to_fase3"
+            app:destination="@id/fase3" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fase3"
+        android:name="com.example.proyectofinal.fase3.Fase3"
+        android:label="Fase3"
+        tools:layout="@layout/fragment_fase3" >
+
+        <action
+            android:id="@+id/action_fase3_to_alarma"
+            app:destination="@id/alarma" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/iniciar"
+        android:name="com.example.proyectofinal.iniciar.Iniciar"
+        android:label="Iniciar"
+        tools:layout="@layout/fragment_iniciar" >
+
+        <action
+            android:id="@+id/action_iniciar_to_alarma"
+            app:destination="@id/alarma" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/main"
+        android:name="com.example.proyectofinal.main.Main"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_main_to_iniciar"
+            app:destination="@id/iniciar" />
+        <action
+            android:id="@+id/action_main_to_fase1"
+            app:destination="@id/fase1" />
+    </fragment>
+    <fragment
+        android:id="@+id/precios"
+        android:name="com.example.proyectofinal.precios.Precios"
+        android:label="Precios"
+        tools:layout="@layout/fragment_precios"/>
+</navigation>

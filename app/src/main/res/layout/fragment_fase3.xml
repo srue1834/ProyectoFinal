@@ -9,14 +9,27 @@
         android:layout_height="match_parent"
         android:background="#3D0C3B">
 
+        <EditText
+            android:id="@+id/precio"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="596dp"
+            android:background="@drawable/cuadrado"
+            android:hint="@string/iescriba"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent" />
+
         <TextView
             android:id="@+id/iprecio"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="636dp"
+            android:layout_marginBottom="668dp"
             android:text="@string/iprecio"
             android:textColor="#FFFFFF"
-            android:textSize="17"
+            android:textSize="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
@@ -25,8 +38,8 @@
         <EditText
             android:id="@+id/direccion"
             android:layout_width="340dp"
-            android:layout_height="100"
-            android:layout_marginBottom="336dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="368dp"
             android:background="@drawable/cuadrado"
             android:hint="@string/iescriba"
             android:textSize="17dp"
@@ -38,8 +51,8 @@
         <EditText
             android:id="@+id/numero"
             android:layout_width="340dp"
-            android:layout_height="50"
-            android:layout_marginBottom="164dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="196dp"
             android:background="@drawable/cuadrado"
             android:hint="@string/iescriba"
             android:textSize="17dp"
@@ -52,10 +65,10 @@
             android:id="@+id/idireccion"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="460dp"
+            android:layout_marginBottom="492dp"
             android:text="@string/idireccion"
             android:textColor="#FFFFFF"
-            android:textSize="17"
+            android:textSize="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
@@ -65,22 +78,9 @@
             android:id="@+id/inumero"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="236dp"
+            android:layout_marginBottom="268dp"
             android:text="@string/inumero"
             android:textColor="#FFFFFF"
-            android:textSize="17"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.492"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/precio"
-            android:layout_width="340dp"
-            android:layout_height="50"
-            android:layout_marginBottom="564dp"
-            android:background="@drawable/cuadrado"
-            android:hint="@string/iescriba"
             android:textSize="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -88,17 +88,17 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/siguiente1"
+            android:id="@+id/siguiente2"
             android:layout_width="170dp"
-            android:layout_height="50"
-            android:layout_marginBottom="52dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="68dp"
             android:background="@drawable/cuadro3"
             android:text="@string/siguiente"
             android:textColor="#3D0C3B"
-            android:textSize="17"
+            android:textSize="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintHorizontal_bias="0.788"
             app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
