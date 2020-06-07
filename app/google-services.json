@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "739075086752",
+    "firebase_url": "https://drinkme-47398.firebaseio.com",
+    "project_id": "drinkme-47398",
+    "storage_bucket": "drinkme-47398.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739075086752:android:c3c14f082c0f0b3d6bacc5",
+        "android_client_info": {
+          "package_name": "com.example.ProyectoFinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739075086752-struho015jnk57mk8t5tj28jj9t0tfp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ProyectoFinal",
+            "certificate_hash": "e20b0d1e1c7936f8bdf2f9a81d8809d343ef6a9a"
+          }
+        },
+        {
+          "client_id": "739075086752-67eev61alutj1dnnb61itacu4f5bg9kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCvim0n5OSy8PDloGrWUhEIZrH7MsLaK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739075086752-67eev61alutj1dnnb61itacu4f5bg9kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
