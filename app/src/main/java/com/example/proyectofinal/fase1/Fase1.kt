@@ -18,7 +18,8 @@ import kotlinx.android.synthetic.main.fragment_fase1.*
  */
 class Fase1 : Fragment() {
 
-
+    private lateinit var fase1ViewModel: Fase1ViewModel
+    private lateinit var binding: FragmentFase1Binding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -41,22 +42,18 @@ class Fase1 : Fragment() {
         }*/
 
         binding.signUpButton.setOnClickListener {
-            if (emailText.text.isNotEmpty() && passwordText.text.isNotEmpty()) {
-                FirebaseAuth.getInstance().createUserWithEmailAndPassword(
-                    emailText.text.toString(),
-                    passwordText.text.toString()
-                ).addOnCompleteListener {
+            if (emailText.text.isNotEmpty() && passwordText.text.isNotEmpty()){
+                FirebaseAuth.getInstance().createUserWithEmailAndPassword( emailText.text.toString(),
+                    passwordText.text.toString()).addOnCompleteListener {
 
-                    if (it.isSuccessful) {
+                    if (it.isSuccessful){
                         goToFase2()
-                    } else {
+                    }else {
                         mostrarError()
                     }
 
                 }
             }
-
-
         }
 
         binding.lifecycleOwner = this
@@ -77,6 +74,7 @@ class Fase1 : Fragment() {
 
     /*override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
 
         fase1ViewModel = ViewModelProvider(this).get(Fase1ViewModel::class.java)
         binding.fase1ViewModel = fase1ViewModel
