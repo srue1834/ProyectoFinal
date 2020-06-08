@@ -36,6 +36,7 @@
     <string name="dia5"> </string>
     <string name="dia6"> </string>
     <string name="dia7"> </string>
+    <string name="email" />
 
 
 </resources>

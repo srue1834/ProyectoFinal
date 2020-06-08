@@ -17,7 +17,7 @@
 
 
         <Button
-            android:id="@+id/registrarse"
+            android:id="@+id/signUpButton"
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_marginBottom="244dp"
@@ -28,20 +28,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/siguiente"
-            android:layout_width="170dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="72dp"
-            android:background="@drawable/cuadro3"
-            android:text="@string/siguiente"
-            android:textColor="#3D0C3B"
-            android:textSize="17dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.78"
             app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
@@ -56,7 +42,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            android:id="@+id/contra2"
+            android:id="@+id/passwordText"
             android:layout_width="280dp"
             android:layout_height="40dp"
             android:layout_marginBottom="456dp"
@@ -69,39 +55,14 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            android:id="@+id/usuario2"
-            android:layout_width="280dp"
-            android:layout_height="40dp"
-            android:layout_marginBottom="588dp"
-            android:background="@drawable/cuadro2"
-            android:textSize="17dp"
-            android:hint="@string/iusuario"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/correo"
+            android:id="@+id/emailText"
             android:layout_width="280dp"
             android:layout_height="40dp"
             android:layout_marginBottom="520dp"
             android:background="@drawable/cuadro2"
-            android:textSize="17dp"
             android:hint="@string/icorreo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/confirmar"
-            android:layout_width="280dp"
-            android:layout_height="40dp"
-            android:layout_marginBottom="392dp"
-            android:background="@drawable/cuadro2"
+            android:inputType="@string/email"
             android:textSize="17dp"
-            android:hint="@string/iconfirmar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"

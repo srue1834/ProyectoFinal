@@ -12,6 +12,7 @@ import com.example.proyectofinal.databinding.FragmentFase2Binding
 /**
  * A simple [Fragment] subclass.
  */
+
 class Fase2 : Fragment() {
 
     override fun onCreateView(
