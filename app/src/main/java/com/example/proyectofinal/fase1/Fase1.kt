@@ -21,6 +21,8 @@ class Fase1 : Fragment() {
     private lateinit var fase1ViewModel: Fase1ViewModel
     private lateinit var binding: FragmentFase1Binding
 
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -28,18 +30,6 @@ class Fase1 : Fragment() {
        // Inflate the layout for this fragment
         val binding = DataBindingUtil.inflate<FragmentFase1Binding>(inflater,
             R.layout.fragment_fase1, container, false)
-
-        /*binding.siguiente.setOnClickListener{
-                view : View ->
-            view.findNavController().navigate(R.id.action_fase1_to_fase2)
-        }
-
-        binding.registrarse.setOnClickListener {
-            val usuario = binding.email.text.toString()
-            val contra = binding.password.text.toString()
-
-            fase1ViewModel.crearCuenta(usuario, contra)
-        }*/
 
         binding.signUpButton.setOnClickListener {
             if (emailText.text.isNotEmpty() && passwordText.text.isNotEmpty()){
@@ -72,39 +62,6 @@ class Fase1 : Fragment() {
         view?.findNavController()?.navigate(R.id.action_fase1_to_fase2)
     }
 
-    /*override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-
-
-        fase1ViewModel = ViewModelProvider(this).get(Fase1ViewModel::class.java)
-        binding.fase1ViewModel = fase1ViewModel
-
-
-    }*/
-
-    private fun setup()
-    {
-        /*binding.registrarse.setOnClickListener{
-            if(usuario2.text.isNotEmpty() && correo.text.isNotEmpty() &&
-                contra2.text.isNotEmpty()
-                && confirmar.text.isNotEmpty())
-            {
-                FirebaseAuth.getInstance()
-
-                    .createUserWithEmailAndPassword(usuario2.text.toString(),
-                        correo.text.toString())
-                    .addOnCompleteListener{
-                        if(it.isSuccessful){
-//register(it.result?.user?.email?: "")
-                            Toast.makeText(activity, "Autenticación Correcta", Toast.LENGTH_SHORT).show()
-                        }
-                        else{
-                            mostrarError()
-                        }
-                    }
-            }
-        }*/
-    }
 
     private fun mostrarError()
     {
@@ -115,16 +72,5 @@ class Fase1 : Fragment() {
         val dialogo: AlertDialog = constructor.create()
         dialogo.show()
     }
-
-
-/*private fun register(user: String/*, email: String*/)
-{
-val constructor = AlertDialog.Builder(context)
-constructor.setTitle("¡Perfecto!")
-constructor.setMessage("Se he registrado correctamente")
-constructor.setPositiveButton("Aceptar", null)
-val dialogo: AlertDialog = constructor.create()
-dialogo.show()
-}*/
 
 }
