@@ -10,7 +10,6 @@ import androidx.navigation.findNavController
 import com.example.proyectofinal.R
 import com.example.proyectofinal.databinding.FragmentFase1Binding
 import com.example.proyectofinal.databinding.FragmentMainBinding
-import com.example.proyectofinal.fase2.ProviderType
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.fragment_fase1.*
 
